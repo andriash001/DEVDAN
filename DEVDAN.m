@@ -1,6 +1,6 @@
-
-
-
+% LicenseCC BY-NC-SA 4.0
+% 
+% Copyright (c) 2018 Andri Ashfahani Mahardhika Pratama
 
 
 
