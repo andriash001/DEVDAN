@@ -149,7 +149,7 @@ for iFolds = 1:nFolds
     
     %% statistical measure
     [parameter.net.f_measure(iFolds,:),parameter.net.g_mean,parameter.net.recall(iFolds,:),parameter.net.precision(iFolds,:),parameter.net.err(iFolds,:)] = performanceMeasure(parameter.net.actualLabel, parameter.net.classPerdiction, M);
-    if iFolds == nFolds - 1
+    if iFolds == nFolds
         fprintf('=========DEVDAN is finished=========\n')
         break               % last chunk only testing
     end
