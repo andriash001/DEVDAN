@@ -190,7 +190,7 @@ end
 clc
 
 %% statistical measure
-[performance.f_measure,performance.g_mean,performance.recall,performance.precision,performance.err] = performanceMeasure(act, out, M);
+[performance.f_measure,performance.g_mean,performance.recall,performance.precision,performance.err] = performanceMeasure(act(chunkSize+1:end), out(chunkSize+1:end), M);
 
 parameter.nFolds = nFolds;
 performance.update_time         = [sum(parameter.net.update_time) mean(parameter.net.update_time) std(parameter.net.update_time)];
