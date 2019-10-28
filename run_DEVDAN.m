@@ -14,7 +14,7 @@ close all
 % load forestcovtype; 	I = 54;
 % load sea; 		    I = 3;
 % load hyperplane;  	I = 4;
-% load occupancy; 	    I = 7;
+% load occupancy; 	    I = 5;
 % load kddcup; 		    I = 41;
 % load Hepemass; 	    I = 27;
 
